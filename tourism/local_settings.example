@@ -1,0 +1,11 @@
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "HOST": "localhost",
+        "NAME": "lcoal_db",
+        "USER": "dbhost",
+        "PASSWORD": "db_pass",
+        "PORT": "5432",
+    }
+}
+
